@@ -1,0 +1,121 @@
+@import url(reset.css);
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 0 24px 0 24px;
+    height: 54px;
+}
+
+#content-search {
+    display: flex;
+    justify-content: center;
+}
+
+span #search-bar{
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    outline-color: #1c62b9;
+}
+
+span #button-img {
+    border: 1px solid #CCCCCC;
+    width: 57px;
+    height: 40px;
+    border-left: none;
+    cursor: pointer;
+}
+
+#button-voice, #button-create, #button-bell {
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#menu-nav {
+    cursor: pointer;
+}
+
+#menu-nav:hover, #button-voice:hover, #button-create:hover, #button-bell:hover, #button-img:hover {
+  background-color: #CCCCCC;
+  transition: 1s;
+}
+
+#button-voice img {
+    width: 25px;
+}
+
+#avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+nav #menu-right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #image-youtube {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    margin: 30px 0 0 75px;
+    gap: 16px;
+}
+
+#container figcaption {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+#button-option {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+#button-option span p a {
+    color: black;
+    font-size: 14px;
+}
+
+#subscrite { 
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #CC0000;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.button-actions {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    gap: 9px;
+}
