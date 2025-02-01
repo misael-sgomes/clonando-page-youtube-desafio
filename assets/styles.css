@@ -87,7 +87,11 @@ nav #image-youtube {
 
 #container figcaption {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
+}
+
+#container #video {
+    width: 872px;
 }
 
 #button-option {
@@ -120,13 +124,12 @@ nav #image-youtube {
     background-color: transparent;
     cursor: pointer;
     font-weight: 600;
-    font-size: 14px;
-    gap: 9px;
+    font-size: 0.85rem;
 }
 
 #button-option div {
     display: flex;
-    gap: 12px;
+    gap: 10px;
 }
 
 .all-tittles {
@@ -136,10 +139,29 @@ nav #image-youtube {
 
 .description-video {
     color: #515151;
+    max-width: 510px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.45px;
 }
 
 #sidebar {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    align-items: flex-start;
+    margin: 30px 0 0 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#sidebar figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#sidebar span {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
